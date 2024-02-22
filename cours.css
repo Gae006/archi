@@ -1,0 +1,57 @@
+main {
+    
+    font-family: arial;
+    border:0; 
+    font-style: italic;
+
+}
+header
+{
+border:1;
+border-style:dotted;
+text-align:center;
+
+font-weight: italic;
+text-align: center;
+font-size: large;
+margin-left: 3em;
+color: white;
+font-family: 'Times New Roman' ;
+
+}
+nav
+{
+    
+    border :0;
+    width:15%; 
+    float:left; 
+}
+aside 
+{
+    border: 0;
+    border-style: solid;
+    width: 19%;
+    float: left;
+}
+footer
+{
+    border: 0;
+    
+    border-color: red;
+   
+    
+}
+main{
+   
+    font-weight: italic;
+    text-align: center;
+    font-size: large;
+    margin-left: 3em;
+}
+body 
+{
+    background-image: linear-gradient(to right, #4c1d60, #6b0954);
+}
+.marge{
+    margin-left:10em;
+}
