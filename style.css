@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    font-family: Source Code Pro;
+    margin :0px;
+    padding :0px;
+    background-color: black;
+}
+
+/* Barre de navigation*/
+nav{
+    display: flex;/*aligner tous les éléments de la barre */
+    flex-wrap: wrap;/* empilement des icones si mauvaise connexion*/
+    justify-content: space-between;/* mets un espace entre titre et barre de nav*/
+    padding: 20px;
+    background-color: rgb(18, 18, 18);
+    position: sticky;/* la barre reste si on scroll*/
+    top: 0;
+}
+nav h1{
+    font-size:20px;
+    color:#d6373c ; /*Couleur du texte pour le nom de l'application*/
+}
+nav .onglets{
+    
+    display: flex ;
+    flex-wrap: wrap;
+    color: #d6373c
+}
+nav .onglets p{
+    font-size: 17px;/*  taille police*/
+    margin-right: 20px;/* empilement des icones si mauvaise connexion*/
+    cursor: pointer;/* modifie l'image du curseur en pointeur au dessus de chaque lien*/
+    
+}
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline :none; 
+    background-color:#d6373c;
+
+}
+/*Find de barre de navigation*/
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Assurez-vous que votre en-tête est en colonne */
+    text-align: center; /* Centre le contenu textuel à l'intérieur de l'en-tête */
+    color: #d6373c;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+
+/*Fin de header*/
+/*section principale*/
+.main{
+    margin :20px;
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+}
+/*fin de section principale*/
+
+/*toutes les cartes */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #d6373c;
+  
+}
+
+.cards .card{
+
+    flex: 1 0 250px; /* Permet à la carte de s'étendre, mais conserve une largeur de base de 250px */
+    margin: 10px; /* Marge autour de chaque carte */
+    cursor: pointer;
+}
+.cards .card img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+
+}
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+.cards .card-category{
+    font-size:large;
+    text-decoration: inherit;
+    font-weight: bolder;
+
+}
+.cards .card .card-body{
+    margin-top: 10px;
+    font-size:14px;
+    
+}
+
+/*fin des cartes*/
+/*video*/
+
+
+.main .video {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .video .iframe {
+    width: 100%;
+    max-width: 1000px; /* Ajustez cette valeur selon vos besoins */
+    height: 560px; /* Ajustez la hauteur de la vidéo selon vos besoins */
+    border: none;
+    margin: 0; /* Assurez-vous qu'il n'y a pas de marges par défaut */
+    border-color : black;
+    
+}
+
+/*fin de video*/
+/* pied de page*/
+footer{
+    margin-top: 100px;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(241, 0, 0);
+
+}
+footer .social-media{
+    display: flex;
+    color: rgb(241, 0, 0);
+}
+
+footer .social-media p{
+    margin-right: 15px;
+    border : 1px solid rgb(46, 44, 44);
+    border-radius: 100%;
+    padding: 5px ;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
+/* fin de pied de page*/

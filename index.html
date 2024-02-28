@@ -1,48 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <title> KIRAVES.COM </title>
-        <link rel="stylesheet" type="text/css" href="cours.css">
-    </head>
-
-
-        
-        <!-- COMMENTAIRES -->
-    <div align="center">
-            <img src="KR_logo.png" width="200" height="200" alt="logo">
+<head>
+    <meta charset="UTF-8">
+    <title>Sith de e-commerce</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/af78488ed9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav> 
+        <h1><i class="fa-brands fa-galactic-republic"></i>kineSITHérapie<i class="fa-brands fa-galactic-republic"></i></h1>
+        <div class="onglets"> 
+            <p class="link">Nouveauté</p>
+            <p class="link">Homme</p>
+            <p class="link">Femme</p>
+            <p class="link">Seconde vie</p>
+            <p class="link">Best seller</p>
+            <form>
+                <input type="search" placeholder="Rechercher">
+            </form>
+            <p><i class="far fa-heart"></i></p>
+            <p><i class="fas fa-shopping-cart"></i></p>
+        </div>
+    </nav>
+    
+    <header> 
+        <h1> La boutique qui vous insith au côté obscure</h1> 
+    </header>
+    
+    <section class="main"> 
+        <!--toutes les cartes-->
+        <div class="cards">
+            <!--Dark vador-->
+            <div class="card">
+                <img src="https://sabrelaser-france.fr/cdn/shop/articles/dark-vador-une-icone-de-star-wars-364663.jpg?v=1699023255" alt="darkvador"/>
+                <div class="card-header">
+                    <h4 class="Title">Dark vador</h4>
+                    <h4 class="price">2000$</h4>
+                </div>
+                <div class="card-category">
+                    <p>Best seller</p>
+                </div>
+                <div class="card-body">
+                    <p>Authentique boîte de conserve sur patte qui enflemmera vos soirées</p>
+                </div>
+            </div>
+            <!--fin dark vador-->
+            <!--Dark sidious-->
+            <div class="card">
+                <img src="https://cdn.vox-cdn.com/thumbor/X5SeLE2xmK51lND__OO_bNU6LXk=/0x0:1920x816/1200x675/filters:focal(898x216:1204x522)/cdn.vox-cdn.com/uploads/chorus_image/image/65943305/star_wars6_movie_screencaps.com_13433.0.jpg" alt="Empereur_Palpatine"/>
+                <div class="card-header">
+                    <h4 class="Title">Darth sidious</h4>
+                    <h4 class="price">15$</h4>
+                </div>
+                <div class="card-category">
+                    <p>Seconde vie</p>
+                </div>
+                <div class="card-body">
+                    <p>Modèle ayant bien trop servis <i class="fa-solid fa-triangle-exclamation"></i> nécessite énormément d'entretient<p>
+                </div>
+            </div>
+            <!--fin dark sidious-->
+            <!--kylo ren-->
+            <div class="card"> 
+                <img src="https://i.pinimg.com/736x/57/f7/1e/57f71e8afd0668da6ddde8460203197d.jpg" alt="darkvador"/>
+                <div class="card-header">
+                    <h4 class="Title">Kylo Ren</h4>
+                    <h4 class="price">15000$</h4>
+                </div>
+                <div class="card-category">
+                    <p>Nouveauté</p>
+                </div>
+                <div class="card-body">
+                    <p>Modèle avec beaucoup de potentiel, mais pas une grande réussite </p>
+                </div>
+            </div>
+            <!-- fin de kylo ren-->
+        </div>
+        <!--fin de toutes les cartes-->
+    </section>
+    
+    <!--Video-->
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/hsrA4kNis0E?si=v6gjeWXbWG19G8rd" allowfullscreen></iframe>
     </div>
-        <header > Welcome to KIRAVES.COM best drone seller in the world! </header>
-        
-            <main > 
-                <body>
-                    <ul>
-                        <table>
-                            <tr>
-                            <td><li><a href="#">Home</a></li></td>
-                            <li style="padding-right: 40px;"></li><td><li><a href="#">About us</a></li></td>
-                            </tr>
-                           
-                        </table>
-                    </ul>
-             </body>  
-               
-             </main>
-             <nav > 
-                
-            </nav>
-             <aside ></aside>
-             <footer ><div align ="center">
-                    
-                <table>
-                    <tr >
-                    <td> <a href="https://www.youtube.com/@luneairefpv6307"><img src="youtube.png" width="25" height="25"> </a></td><td><a href="https://www.instagram.com/fabio_candio?igsh=N3RhOXQwaHJ0dDB4"><img src="insta.png" width="25" height="25"></a> </td>
-                    </tr>
-                </table>
-             
-       
-                     
-             </div></footer>
-
-            
+    <!--Fin Video-->  
+    
+    <!--Pied de page-->
+    <footer>
+        <p>&copy; Contactez nous au 06 06 06 06 06 06</p>
+        <div class="social-media">
+            <p><i class="fab fa-youtube"></i></p>
+            <p><i class="fab fa-instagram"></i></p>
+            <p><i class="fab fa-twitter"></i></p>
+            <p><i class="fab fa-tiktok"></i></p>
+        </div>
+    </footer>
+    <!--Fin de pied de page-->
+</body>
 </html>
